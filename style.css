@@ -1,0 +1,23 @@
+body {
+  margin: auto;
+  width: 600px;
+}
+
+#title {
+  text-align: center;
+}
+
+#trap-image {
+  padding: 0px 50px;
+  width: 500px;
+}
+
+#calculate {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-image: linear-gradient(gainsboro, dimgrey);
+}
+
+.check {
+  visibility: hidden;
+}

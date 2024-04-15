@@ -1,0 +1,8 @@
+INSTRUCTIONS
+-    Create a program that will calculate the Area of a Trapezoid based on values provided by the user.
+-    Allow the user to supply values for the necessary inputs and when the user clicks a “Calculate” button the program will:
+-    Use the provided inputs to perform the Area of a Trapezoid calculation and output the results.
+-    Erase the value stored in each input field after clicking calculate
+-    round the result to a single decimal point
+-    Add the check.png image with a width of 20px next to each input box.
+-    BONUS: Add an additional input that requests the number of decimal places the user wants to round to. Round to this number of decimal places.

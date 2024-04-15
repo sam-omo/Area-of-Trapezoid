@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Area of Trapezoid Calculator</title>
+  </head>
+  <body>
+    <h1 id="title">Area of Trapezoid Calculator</h1>
+    <img
+      src="images/Trapezoidnotes.jpg"
+      id="trap-image"
+      alt="Shape and Formula of Trapezoid"
+    />
+
+    <h2>Inputs</h2>
+    <p>
+      Length of top base (a): <input type="number" id="a-input" />
+      <img
+        src="images/check.png"
+        id="check1"
+        class="check"
+        alt="Check!"
+        width="20px"
+      />
+    </p>
+    <p>
+      Length of bottom base (b): <input type="number" id="b-input" />
+      <img
+        src="images/check.png"
+        id="check2"
+        class="check"
+        alt="Check!"
+        width="20px"
+      />
+    </p>
+    <p>
+      Height of trapezoid (h): <input type="number" id="h-input" />
+      <img
+        src="images/check.png"
+        id="check3"
+        class="check"
+        alt="Check!"
+        width="20px"
+      />
+    </p>
+
+    <hr />
+
+    <p>
+      Round to how many places: <input type="number" id="round-to" />
+      <img
+        src="images/check.png"
+        id="check4"
+        class="check"
+        alt="Check!"
+        width="20px"
+      />
+    </p>
+
+    <button id="calculate">CALCULATE</button>
+
+    <h2>Output</h2>
+    <p>The area of the trapezoid is <span id="area">----</span>.</p>
+  </body>
+</html>
